@@ -2,6 +2,6 @@ pom.xml
 *jar
 lib
 classes
-/.lein-failures
-/.lein-deps-sum
-/.settings
+.lein-failures
+.lein-deps-sum
+.settings
