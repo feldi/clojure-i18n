@@ -1,4 +1,4 @@
-# clji18n
+# clojure - i18n
 
 Simple internationalization for Clojure
 
