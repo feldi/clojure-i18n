@@ -6,9 +6,8 @@ Based on the projects:
  clji18n: :author "Sebastián Galkin"
  j18n     :author "Meikel Brandmeyer <m@kotka.de>"
 
-It uses standard Java resource
-bundles to do the heavy-lifting and as such integrates well with the Java
-infrastructure.
+It uses standard Java resource bundles to do the heavy-lifting
+and as such integrates well with the Java infrastructure.
 
 
 ## Basic Usage
