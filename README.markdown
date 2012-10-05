@@ -2,9 +2,8 @@
 
 Simple internationalization for Clojure
 
-Based on the projects:
- clji18n: :author "Sebastián Galkin"
- j18n     :author "Meikel Brandmeyer <m@kotka.de>"
+Based on the projects: `clji18n`, author: "Sebastián Galkin"
+and `j18n`, author: "Meikel Brandmeyer <m@kotka.de>"
 
 It uses standard Java resource bundles to do the heavy-lifting
 and as such integrates well with the Java infrastructure.
