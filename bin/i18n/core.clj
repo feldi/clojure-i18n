@@ -49,7 +49,7 @@
   `(binding [~'*i18n-locale* ~locale]
      ~@body))
 
-(defn formatMessage [msg args]
+(defn format-message [msg args]
   "Replace message format placeholders {0}, {1} etc."
   (when (empty? args)
     msg)
@@ -76,7 +76,7 @@
    {:pre [(or (keyword? key) (string? key))]}
    (let [key (name key)]
      (when (.contains (bundle-keys bundle) key)
-        (formatMessage (.getString bundle key) args)))))
+        (format-message (.getString bundle key) args)))))
 
 (defn i18n-key?
   "Returns true if k is an i18n resource key, i.e. a namespaced keyword"
@@ -98,6 +98,6 @@
            (i18n* bundleOrKey (first args) (rest args))
         (i18n-key? bundleOrKey)
            (i18n* bundleOrKey args)
-        :else (formatMessage bundleOrKey args)))
+        :else (format-message bundleOrKey args)))
 
 

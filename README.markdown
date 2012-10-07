@@ -40,7 +40,12 @@ You may provide an explicit bundle:
 
 ## Installation
 
-Add [i18n "1.0.2"] to your project.clj
+Clone this repository, then build with 
+
+lein deps
+lein jar
+
+Add [i18n "1.0.2"] to your projects `project.clj` and add `i18n-1.0.2.jar` to your projects lib.
 
 ## License
 
