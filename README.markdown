@@ -45,7 +45,7 @@ Clone this repository, then build with
 lein deps
 lein jar
 
-Add [i18n "1.0.2"] to your projects `project.clj` and add `i18n-1.0.2.jar` to your projects lib.
+Add [i18n "1.0.3"] to your projects `project.clj` and add `i18n-1.0.3.jar` to your projects lib.
 
 ## License
 

@@ -3,8 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/dev/lazytest-1.1.2.jar"/>
-	<classpathentry kind="lib" path="lib/dev/swank-clojure-1.2.1.jar"/>
-	<classpathentry kind="lib" path="lib/clojure-1.4.0.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="var" path="M2_REPO/org/clojure/clojure/1.4.0/clojure-1.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/swank-clojure/swank-clojure/1.2.1/swank-clojure-1.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/stuartsierra/lazytest/1.1.2/lazytest-1.1.2.jar"/>
+	<classpathentry kind="output" path="target"/>
 </classpath>
