@@ -40,15 +40,15 @@ You may provide an explicit bundle:
 
 ## Installation
 
-Clone this repository, then build with 
+Clone this repository, then build and install it in your local maven repository with 
 
-lein deps
-lein jar
+    lein deps, install
 
-Add [i18n "1.0.3"] to your projects `project.clj` and add `i18n-1.0.3.jar` to your projects lib.
+
+Add [i18n "1.0.3"] to your own project's leiningen `project.clj`.
 
 ## License
 
-Copyright (C) 2012 Peter Feldtmann
+Copyright (C) 2012-2013 Peter Feldtmann
 
 Distributed under the Eclipse Public License, the same as Clojure.
